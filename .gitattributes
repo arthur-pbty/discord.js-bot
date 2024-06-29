@@ -1,0 +1,7 @@
+# Auto détecter le texte et convertir les fins de ligne en LF lors de l'engagement
+* text=auto eol=lf
+
+# Spécifier les fichiers binaires
+*.png binary
+*.jpg binary
+*.gif binary

@@ -1,0 +1,50 @@
+{
+  "name": "discord.js-bot",
+  "version": "1.0.0",
+  "description": "An advanced Discord bot designed to offer a wide range of interactive and management features for online communities.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "tsc && node build/bot.js",
+    "dev": "tsc && nodemon build/bot.js",
+    "deploy": "tsc && node build/deploy-commands.js",
+    "build": "tsc",
+    "prettier": "prettier --write .",
+    "prettier-check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthur-pbty/discord.js-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "community",
+    "interactive",
+    "management"
+  ],
+  "author": "Arthur PBTY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthur-pbty/discord.js-bot/issues"
+  },
+  "homepage": "https://github.com/arthur-pbty/discord.js-bot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@discordjs/builders": "^1.8.2",
+    "@discordjs/rest": "^2.3.0",
+    "@eslint/js": "^9.6.0",
+    "@types/node": "^20.14.9",
+    "discord-api-types": "^0.37.91",
+    "discord.js": "^14.15.3",
+    "eslint": "^9.6.0",
+    "globals": "^15.6.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1"
+  }
+}
